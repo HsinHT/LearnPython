@@ -7,5 +7,5 @@ def hanoi(n, x, y, z):
 		hanoi(n-1, y, x, z)
 
 if __name__ == '__main__':
-	n = int(input('Please input hanoi towers numbers: '))
+	n = int(input('Please input hanoi towers numbers:'))
 	hanoi(n, 'X', 'Y', 'Z')
