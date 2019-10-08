@@ -17,7 +17,7 @@ def fibonacci2(n):
     return result
 
 if __name__ == '__main__':
-	n = int(input('Please input number: '))
+	n = int(input('Please input number:'))
 	print(datetime.datetime.now())
 	print('\nOne - fibonacci1(%d)=%d\n' % (n, fibonacci1(n)))
 	print(datetime.datetime.now())
