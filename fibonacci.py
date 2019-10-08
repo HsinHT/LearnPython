@@ -17,9 +17,9 @@ def fibonacci2(n):
     return result
 
 if __name__ == '__main__':
-	n = 20
+	n = int(input('Please input number: '))
 	print(datetime.datetime.now())
-	print('One - fibonacci1(%d)=%d' % (n, fibonacci1(n)))
+	print('\nOne - fibonacci1(%d)=%d\n' % (n, fibonacci1(n)))
 	print(datetime.datetime.now())
-	print('Two - fibonacci2(%d)=%d' % (n, fibonacci2(n)))
+	print('\nTwo - fibonacci2(%d)=%d\n' % (n, fibonacci2(n)))
 	print(datetime.datetime.now())
