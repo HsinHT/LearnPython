@@ -5,7 +5,7 @@ flag = True
 
 print('----------------------------------------')
 while flag:
-        temp = input("guess number (0-9): ")
+        temp = input("guess number (0-9):")
         guess = int(temp)
 
         if guess == secret:
