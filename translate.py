@@ -43,3 +43,4 @@ html = response.read().decode('utf-8')
 target = json.loads(html)
 
 print('翻譯結果：%s' % (target['translateResult'][0][0]['tgt']))
+
