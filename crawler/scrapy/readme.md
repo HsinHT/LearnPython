@@ -6,3 +6,4 @@
 
 3. scrapy startproject 專案名稱
 'ex: C:\LearnPython\crawler\scrapy\>scrapy startproject tutorialscrapy'
+
