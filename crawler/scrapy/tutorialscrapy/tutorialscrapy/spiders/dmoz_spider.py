@@ -46,3 +46,4 @@ class DmozSpider(scrapy.Spider):
             items.append(item)
 
         return items
+
